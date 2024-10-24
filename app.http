@@ -1,0 +1,19 @@
+GET http://localhost:3000/names
+###
+
+POST http://localhost:3000/addItem
+Content-Type: application/json
+
+
+{
+    "name":"Akhil",
+    "age":24
+
+}
+###
+
+PUT http://localhost:3000/updateItem
+
+###
+
+DELETE  http://localhost:3000/deleteItem
